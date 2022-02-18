@@ -1,6 +1,6 @@
 # Welcome to Jackblackjack game! 
 #### Hope you have a great time with this complex and long game
-- Play [here!](https://alexandredornellas.github.io/Netflix-interface-JS/)
+- Play [here!](https://alexandredornellas.github.io/JackBlackjack-game/)
 
 ## 📋 Requirements
 
