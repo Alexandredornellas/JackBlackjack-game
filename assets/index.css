@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url(https://pl.sterlingcdn.com/wp-content/uploads/sites/3/2018/07/blackjack-classic-background.jpg);
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: clamp(1rem, 4vh, 4vh);
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    font-size: clamp(.8rem, 5vh, 5vh);
+    background: goldenrod;
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.jack-black-face{
+    width: 15%;
+    height: 30%;
+    position: fixed;
+    bottom: 60%;
+    background-size: cover;
+    background-position: 50% 20%;
+    margin-left: 5%;
+    border: white solid 5px;
+    border-radius: 20px;
+    background-image: url(https://www.gannett-cdn.com/-mm-/b53a01e64cd5276e8d5f1b10e5e41be313e8e9e3/c=0-411-5177-3336/local/-/media/2015/10/12/USATODAY/USATODAY/635802462956525918-JackBlack.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp);
+}

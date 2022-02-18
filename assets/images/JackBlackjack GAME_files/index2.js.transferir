@@ -1,0 +1,57 @@
+let cards = "";
+let divCardsWrapper = document.getElementById("div-cards");
+
+function renderGame(){
+    //inserir X cartas na tela
+    //criar elemento carta dentro da div-cards
+    for (let i = 0; i < Object.keys(cards).length; i++){
+        let createCardImgElement = document.createElement("img");
+        cardID = "card"+[i];
+        createCardImgElement.id = cardID;
+        createCardImgElement.src = Object.values(cards.c1.src);
+        divCardsWrapper.appendChild(createCardImgElement);
+    }
+    // Aumentar a soma total das cartas
+    // alterar botão de startGame
+    // alterar status do message-el
+};
+
+function startGame(){
+    //receber 2 cartas novas e aleatórias em forma de objeto
+    let firstCard = randomCards();
+    let secondCard = randomCards();
+    //Inserir as carta em um objeto maior 
+    // o objeto deve conter: src + valor.
+    let newCards = {
+        c1: firstCard, 
+        c2: secondCard,
+    }
+    cards = newCards;
+    renderGame();
+    
+    //chamar renderGame para inserir os dados na tela.
+
+};
+
+
+function randomCards(){
+    //gerar aleatoriamente um número
+    let randomNumber = Math.floor(Math.random() *13 ) + 1;
+
+    // Inserir no objeto cards o src e valor da carta contendo o número aleatório.
+    let newCard = {
+        src: "https://xn--pacincia-n1a.eu/media/cards/" + randomNumber + "h.png",
+        value: randomNumber
+    }
+
+    // retornar o objeto.
+    return newCard;
+
+};
+
+function newCard(){
+    //Similar ao startGame, deve receber um objeto carta do randomCards()
+    //e chamar o renderGame para inserir a carta na tela.
+};
+
+// console.log(startGame());
