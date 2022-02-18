@@ -1,9 +1,10 @@
-Welcome to Jackblackjack game!
-Hope you have a great time with this complex and long game
+#Welcome to Jackblackjack game!
+####Hope you have a great time with this complex and long game
 
 Link to [play](https://alexandredornellas.github.io/JackBlackjack-game/)
-📋 Requirements
-create an Jackblack game using Vanilla JS
+
+##📋 Requirements
+####create an Jackblack game using Vanilla JS
 ✔️ Create imgs dynamically
 
 ✔️ action buttons
@@ -11,7 +12,7 @@ create an Jackblack game using Vanilla JS
 ✔️ Play rulez and in-game changes
 
 ✔️ Personal touch
-🛠 Tecnology:
+##🛠 Tecnology:
  HTML5
 
  CSS3
