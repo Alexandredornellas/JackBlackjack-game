@@ -1,10 +1,11 @@
-#Welcome to Jackblackjack game!
-####Hope you have a great time with this complex and long game
+# Welcome to Jackblackjack game! 
+#### Hope you have a great time with this complex and long game
+- Play [here!](https://alexandredornellas.github.io/Netflix-interface-JS/)
 
-Link to [play](https://alexandredornellas.github.io/JackBlackjack-game/)
+## 📋 Requirements
 
-##📋 Requirements
-####create an Jackblack game using Vanilla JS
+### create an Jackblack game using Vanilla JS
+
 ✔️ Create imgs dynamically
 
 ✔️ action buttons
@@ -12,7 +13,9 @@ Link to [play](https://alexandredornellas.github.io/JackBlackjack-game/)
 ✔️ Play rulez and in-game changes
 
 ✔️ Personal touch
-##🛠 Tecnology:
+
+## 🛠 Tecnology:
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" align="center" width="30" height="30" /> HTML5
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" align="center" width="30" height="30" /> CSS3
